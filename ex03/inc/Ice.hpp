@@ -6,14 +6,14 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 15:46:17 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/21 19:08:19 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 16:33:40 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef ICE_HPP
 #define ICE_HPP
-#include "AMateria.hpp"
-#include "ICharacter.hpp"
+#include "../inc/AMateria.hpp"
+#include "../inc/ICharacter.hpp"
 
 class Ice : public AMateria
 {

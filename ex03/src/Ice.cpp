@@ -6,11 +6,11 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 15:46:55 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/23 16:20:00 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 16:34:05 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Ice.hpp"
+#include "../inc/Ice.hpp"
 
 Ice::Ice(void) : AMateria("ice") {}
 

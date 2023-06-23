@@ -6,11 +6,11 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 15:46:49 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/23 16:19:38 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 16:34:01 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Cure.hpp"
+#include "../inc/Cure.hpp"
 
 Cure::Cure(void) : AMateria("cure") {}
 

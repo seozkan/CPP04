@@ -6,11 +6,11 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 15:47:01 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/23 16:20:36 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 16:34:13 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "MateriaSource.hpp"
+#include "../inc/MateriaSource.hpp"
 
 MateriaSource::MateriaSource(void)
 {

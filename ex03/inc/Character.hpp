@@ -6,13 +6,13 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 15:45:53 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/22 15:55:20 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 16:33:31 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef CHARACTER_HPP
 #define CHARACTER_HPP
-#include "ICharacter.hpp"
+#include "../inc/ICharacter.hpp"
 
 #define LOG 1
 #define PINK "\033[38;5;206m"

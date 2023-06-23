@@ -6,13 +6,13 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 15:46:12 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/21 16:03:41 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 16:33:48 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef IMATERIASOURCE_HPP
 #define IMATERIASOURCE_HPP
-#include "AMateria.hpp"
+#include "../inc/AMateria.hpp"
 
 class IMateriaSource
 {

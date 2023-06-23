@@ -6,7 +6,7 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 15:45:47 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/22 12:12:40 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 16:33:27 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 #ifndef AMATERIA_HPP
 #define AMATERIA_HPP
 #include <iostream>
-#include "ICharacter.hpp"
+#include "../inc/ICharacter.hpp"
 
 class ICharacter;
 

@@ -6,14 +6,14 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 15:47:06 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/22 16:07:44 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 16:34:09 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Character.hpp"
-#include "Ice.hpp"
-#include "Cure.hpp"
-#include "MateriaSource.hpp"
+#include "../inc/Character.hpp"
+#include "../inc/Ice.hpp"
+#include "../inc/Cure.hpp"
+#include "../inc/MateriaSource.hpp"
 
 static void testSubject()
 {

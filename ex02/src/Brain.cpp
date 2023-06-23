@@ -6,11 +6,11 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/19 15:47:34 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/23 16:16:03 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 16:33:12 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Brain.hpp"
+#include "../inc/Brain.hpp"
 
 Brain::Brain()
 {

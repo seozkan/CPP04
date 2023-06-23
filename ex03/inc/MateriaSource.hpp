@@ -6,13 +6,13 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 15:46:23 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/22 15:50:58 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 16:33:52 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef MATERIASOURCE_HPP
 #define MATERIASOURCE_HPP
-#include "IMateriaSource.hpp"
+#include "../inc/IMateriaSource.hpp"
 
 #define LOG 1
 #define GREEN   "\033[32m"
