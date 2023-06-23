@@ -6,7 +6,7 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 15:46:33 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/21 17:51:32 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 16:18:22 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ AMateria::AMateria() : _type("notype"){};
 
 AMateria::AMateria(const std::string &type) : _type(type) {}
 
-AMateria::AMateria(const AMateria &amateria) : _type(amateria._type){};
+AMateria::AMateria(const AMateria &amateria) {*this = amateria;}
 
 AMateria::~AMateria() {}
 

@@ -6,11 +6,11 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/18 14:07:07 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/18 16:03:11 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 16:02:30 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Animal.hpp"
+#include "../inc/Animal.hpp"
 
 Animal::Animal() : _type("Animal")
 {

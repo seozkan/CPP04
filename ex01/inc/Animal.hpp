@@ -6,7 +6,7 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/18 10:18:50 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/18 14:57:19 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 16:03:22 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ protected:
     std::string _type;
 
 public:
-    Animal(void);
+    Animal();
     Animal(const std::string &type);
     Animal(const Animal &animal);
     Animal &operator=(const Animal &animal);

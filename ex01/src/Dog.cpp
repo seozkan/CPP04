@@ -6,11 +6,11 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/18 14:18:58 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/20 14:25:51 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 16:03:58 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Dog.hpp"
+#include "../inc/Dog.hpp"
 
 Dog::Dog(void) : Animal("Dog"), _brain(new Brain())
 {

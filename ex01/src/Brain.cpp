@@ -6,11 +6,11 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/19 15:47:34 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/20 13:18:43 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 16:14:49 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Brain.hpp"
+#include "../inc/Brain.hpp"
 
 Brain::Brain()
 {
@@ -24,8 +24,7 @@ Brain::Brain()
 Brain::Brain(const Brain &brain)
 {
     std::cout << "Brain copy constructor called" << std::endl;
-    for (int i = 0; i < 100; i++)
-        this->_ideas[i] = brain._ideas[i];
+    *this = brain;
 }
 
 Brain::~Brain()

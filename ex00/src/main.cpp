@@ -6,13 +6,13 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/18 14:36:17 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/18 16:13:52 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 16:02:41 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Cat.hpp"
-#include "Dog.hpp"
-#include "WrongCat.hpp"
+#include "../inc/Cat.hpp"
+#include "../inc/Dog.hpp"
+#include "../inc/WrongCat.hpp"
 
 static void wrongTest(void)
 {

@@ -6,14 +6,14 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/18 14:02:17 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/20 13:14:53 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 16:03:38 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef DOG_HPP
 #define DOG_HPP
-#include "Animal.hpp"
-#include "Brain.hpp"
+#include "../inc/Animal.hpp"
+#include "../inc/Brain.hpp"
 
 class Dog : public Animal
 {

@@ -6,7 +6,7 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 15:46:41 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/22 16:02:10 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 16:19:06 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,12 +24,7 @@ Character::Character(const std::string &name) : _name(name)
         _slots[i] = NULL;
 }
 
-Character::Character(const Character &character)
-{
-    _name = character._name;
-    for (int i = 0; i < 4; i++)
-        _slots[i] = character._slots[i];
-}
+Character::Character(const Character &character) {*this = character;}
 
 Character::~Character()
 {

@@ -6,11 +6,11 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/18 14:13:56 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/18 14:58:57 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 16:02:32 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Cat.hpp"
+#include "../inc/Cat.hpp"
 
 Cat::Cat() : Animal("Cat")
 {

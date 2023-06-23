@@ -6,7 +6,7 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 15:47:01 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/22 15:48:26 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 16:20:36 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,11 +18,7 @@ MateriaSource::MateriaSource(void)
         _slots[i] = NULL;
 }
 
-MateriaSource::MateriaSource(const MateriaSource &materiasource)
-{
-    for (int i = 0; i < 4; i++)
-        _slots[i] = materiasource._slots[i];
-}
+MateriaSource::MateriaSource(const MateriaSource &materiasource) {*this = materiasource;}
 
 MateriaSource::~MateriaSource()
 {

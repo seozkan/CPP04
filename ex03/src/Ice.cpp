@@ -6,7 +6,7 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 15:46:55 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/22 15:50:08 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 16:20:00 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 Ice::Ice(void) : AMateria("ice") {}
 
-Ice::Ice(const Ice &ice) : AMateria(ice) {}
+Ice::Ice(const Ice &ice) : AMateria(ice) {*this = ice;}
 
 Ice::~Ice() {}
 

@@ -6,11 +6,11 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/18 14:22:41 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/18 15:08:52 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 16:02:47 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "WrongAnimal.hpp"
+#include "../inc/WrongAnimal.hpp"
 
 WrongAnimal::WrongAnimal(void) : _type("Animal")
 {

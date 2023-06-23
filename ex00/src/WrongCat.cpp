@@ -6,11 +6,11 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/18 14:34:52 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/18 14:59:06 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 16:02:53 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "WrongCat.hpp"
+#include "../inc/WrongCat.hpp"
 
 WrongCat::WrongCat(void) : WrongAnimal("Cat")
 {

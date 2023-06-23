@@ -6,12 +6,12 @@
 /*   By: seozkan <seozkan@42kocaeli.com.tr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/18 14:13:56 by seozkan           #+#    #+#             */
-/*   Updated: 2023/06/20 13:16:16 by seozkan          ###   ########.fr       */
+/*   Updated: 2023/06/23 16:03:52 by seozkan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Cat.hpp"
-#include "Brain.hpp"
+#include "../inc/Cat.hpp"
+#include "../inc/Brain.hpp"
 
 Cat::Cat() : Animal("Cat"), _brain(new Brain())
 {
